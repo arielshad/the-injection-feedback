@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/arielshad/the-injection-feedback/discussions
+    about: Ask anything or suggest a feature in Discussions.
+  - name: Data formats for agents and developers
+    url: https://theinjection.dev/developers/
+    about: llms.txt, JSON Feed, RSS and Markdown endpoints.

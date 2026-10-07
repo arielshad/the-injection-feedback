@@ -1,0 +1,41 @@
+name: Correction
+description: Something in a story is wrong or missing.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Story URL
+      description: The theinjection.dev page, e.g. https://theinjection.dev/items/air-plugin4shell/
+      placeholder: https://theinjection.dev/items/...
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: What is wrong
+      options:
+        - Severity
+        - Affected products or versions
+        - CVE or CVSS
+        - Credit (who did the research)
+        - A fact in the explainer
+        - A broken or wrong source link
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What it should say
+      description: Quote the source that shows it.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      placeholder: https://
+    validations:
+      required: true

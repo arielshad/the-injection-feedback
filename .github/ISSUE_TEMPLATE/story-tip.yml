@@ -1,0 +1,32 @@
+name: Story tip
+description: Public AI security research, an advisory or a fix we should cover.
+title: "Tip: "
+labels: [tip]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Primary source
+      description: The original write-up, advisory or paper. Not a repost.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: who
+    attributes:
+      label: Who did the work
+      description: Researchers or team to credit.
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: One or two sentences. What is affected, and is there a fix?
+    validations:
+      required: true
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Confirm
+      options:
+        - label: This is already public. (Undisclosed vulnerabilities go to the vendor, not here.)
+          required: true
