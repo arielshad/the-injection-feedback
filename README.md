@@ -8,7 +8,7 @@ Public feedback for [The Injection](https://theinjection.dev), a feed of AI secu
 - **Research or an advisory we should cover**: [suggest a story](https://github.com/arielshad/the-injection-feedback/issues/new?template=story-tip.yml). It must be public, from a primary source.
 - **Questions, ideas, anything else**: [start a discussion](https://github.com/arielshad/the-injection-feedback/discussions).
 
-Corrections are applied in the next update (every six hours) on the same story URL.
+Corrections are reviewed and applied in a later update, on the same story URL.
 
 ## Not here
 
